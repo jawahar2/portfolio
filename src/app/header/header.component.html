@@ -15,7 +15,7 @@
                 </ul>
                 <ul>
                     <li>
-                        <a href="#" [ngClass]="{'home-button': isTrue}">Home</a>
+                        <a routerLink="/home" [ngClass]="{'home-button': isTrue}" (click)="click()">Home</a>
                     </li>
                     <li>
                         <a href="#">About</a>
