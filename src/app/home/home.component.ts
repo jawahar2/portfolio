@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  ngOnInit(){
+    sessionStorage.setItem("about","false");
+    sessionStorage.setItem("home","true");
+    sessionStorage.setItem("portfolio","false");
+    sessionStorage.setItem("reach","false");
+  }
 }
