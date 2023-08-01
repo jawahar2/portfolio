@@ -9,7 +9,7 @@ export class AppComponent {
   title = 'portfolio';
   ngOnInit(){
     console.log("hello from app");
-    sessionStorage.setItem("home","true");
+    sessionStorage.setItem("home","false");
     sessionStorage.setItem("about","false");
     sessionStorage.setItem("portfolio","false");
     sessionStorage.setItem("reach","false");

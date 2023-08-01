@@ -15,5 +15,8 @@
 }
 .p-des{
     color: #7e7d7d;
-    width: 80%;
+    /* width: 100%; */
+}
+.sub-heading{
+    font-weight: 500;
 }

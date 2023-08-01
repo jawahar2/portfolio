@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AboutComponent } from './about/about.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ReachComponent } from './reach/reach.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
     HeaderComponent,
     HomeComponent,
     AboutComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    ReachComponent
   ],
   imports: [
     BrowserModule,

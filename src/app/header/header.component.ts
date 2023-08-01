@@ -95,4 +95,14 @@ export class HeaderComponent {
     sessionStorage.setItem("portfolio","true");
     sessionStorage.setItem("reach","false");
   }
+  clickReach(){
+    this.isHome = false;
+    this.isAbout = false;
+    this.isPortfolio = false;
+    this.isReach = true;
+    sessionStorage.setItem("home","false");
+    sessionStorage.setItem("about","false");
+    sessionStorage.setItem("portfolio","false");
+    sessionStorage.setItem("reach","true");
+  }
 }
