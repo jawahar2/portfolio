@@ -16,8 +16,11 @@ a, a:hover{
     text-decoration: none;
     color: #000;
 }
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5{
     font-weight: 700;
+}
+h6{
+    font-weight: 500;
 }
 h1{
     font-size: 40px;
