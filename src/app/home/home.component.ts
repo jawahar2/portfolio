@@ -8,15 +8,6 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent {
 
-  constructor(private router:Router) {}
-  ngOnInit(){
-    sessionStorage.setItem("about","false");
-    sessionStorage.setItem("home","true");
-    sessionStorage.setItem("portfolio","false");
-    sessionStorage.setItem("reach","false");
-  }
-  goTo(){
-    sessionStorage.setItem("about","true");
-    sessionStorage.setItem("home","false");
-  }
+  constructor(private router:Router) {}  
+
 }

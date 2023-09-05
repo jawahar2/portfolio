@@ -7,11 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent {
 
-  ngOnInit(){
-    sessionStorage.setItem("about","true");
-    sessionStorage.setItem("home","false");
-    sessionStorage.setItem("portfolio","false");
-    sessionStorage.setItem("reach","false");
-    // location.reload();
-  }
 }
